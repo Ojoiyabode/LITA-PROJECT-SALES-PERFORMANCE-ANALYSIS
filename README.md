@@ -3,18 +3,18 @@ A repository of the sales performance data of retail store showing key insights 
 
 ## TABLE OF CONTENT
 
-## PROJECT TITLE : SALES PERFORMAMNCE ANALYSIS OF A RETAIL STORE
-This 
+### PROJECT TITLE : SALES PERFORMANCE ANALYSIS OF A RETAIL STORE
 
-## PROJECT OBJECTIVE
+### PROJECT OBJECTIVE
+---
 The objective of this project is to uncover the following Key Sales performance insights which includes;
-### Insights
+#### Insights
 Top-selling products
 Regional performance
 Monthly sales trend
 Customer behaviour and trend
 
-### Goals
+#### Goals
 Create visuals that captures these findings
 Give data-driven recommendations 
 
@@ -22,9 +22,9 @@ Give data-driven recommendations
 The data used was gotten from the tutors of Ladies in Tech program for exploration and analysis as a prerequisite for the certification.
 
 ## TOOLS USED
- Microsoft Excel for data exploration, cleaning and transforming
- SQL for querying and analysing data in relational database
- Powerbi for visualization and building interactive dashboards
+- Microsoft Excel for data exploration, cleaning and transforming, analysis
+- SQL (Structured Query Language) for querying and analysing data in relational database
+- Powerbi for visualization and building interactive dashboards
 
  ## DATA CLEANING AND PREPARATION
 
@@ -34,8 +34,14 @@ The data used was gotten from the tutors of Ladies in Tech program for explorati
  Used Excel formulas to calculate metrics such as average sales per product and total revenue by region
  
  ### SQL
+ This is where I included basic lines of queries used during analysis
  
  ### POWERBI
+ 
+ ## ANALYSIS & INSIGHTS
+ ### EXCEL
+ 
+ 
 
 
 
