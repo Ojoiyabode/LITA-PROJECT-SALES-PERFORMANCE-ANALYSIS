@@ -86,10 +86,9 @@ The following insights can be deduced from the above
 
 
 The following insight can be deduced from the above:
+- Peak sales : There were remarkable peak sales in February 2023, July 2023 and February 2024. These peak sales shows that these periods were months of high product demand.
 
-
-
-
+- Low Sales period : The lowest sales was recorded in April 2023 where there was a notable drop in sales.
 
 
 
