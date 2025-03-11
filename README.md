@@ -97,6 +97,8 @@ The following insight can be deduced from the above:
 
  ### SQL- STRUCTURED QUERY LANGUAGE
  This is where I included basic lines of queries used during analysis
+
+ 
  
  ### POWERBI
  
