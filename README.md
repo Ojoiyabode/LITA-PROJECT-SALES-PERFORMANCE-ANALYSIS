@@ -1,4 +1,4 @@
-# LITA-CAPSTONE PROJECT-SALES-PERFORMANCE-ANALYSIS
+# LITA-CAPSTONE PROJECT:SALES-PERFORMANCE-ANALYSIS
 A repository of the sales performance data of retail store showing key insights and making data-driven decisions from the insights discovered from the data.
 
 ## TABLE OF CONTENT
@@ -90,13 +90,27 @@ The following insight can be deduced from the above:
 
 - Low Sales period : The lowest sales was recorded in April 2023 where there was a notable drop in sales.
 
+  ### AVERAGE SALES PER PRODUCT                         
+![Screenshot 2025-03-11 090724](https://github.com/user-attachments/assets/cb9c2864-7737-44e3-a9f2-86a8178fee31)
 
+
+  ### TOTAL REVENUE BY REGION
+  ![Screenshot 2025-03-11 090740](https://github.com/user-attachments/assets/880afad4-6b6a-43b0-b37b-2561ab89f6ec)
 
 
 
 
  ### SQL- STRUCTURED QUERY LANGUAGE
  This is where I included basic lines of queries used during analysis
+ create database LITA_CAP
+ SELECT * FROM [dbo].[SalesData$]
+
+ SELECT [OrderID], [Customer Id], [Product], [Region], [OrderDate], [Quantity], [Unitprice], [Total Sales]
+from [dbo].[SalesData$]
+order by OrderId asc
+
+ TOTAL SALES PER PRODUCT CATEGORY
+ 
 
  
  
