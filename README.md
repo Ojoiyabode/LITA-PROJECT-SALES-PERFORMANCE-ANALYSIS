@@ -6,8 +6,8 @@ A repository of the sales performance data of retail store showing key insights 
 
 ## PROJECT OBJECTIVE
 ---
-- The analyze the sales performance of the retail store by uncovering key insights such as - Top-selling products - Regional performance - Monthly sales trend - Average saes per product and total revenue by region using Excel and SQL server environment.
-- Create interractive Dashboards that highlight these findings using Excel and PowerBi.
+- To analyze the sales performance of the retail store by uncovering key insights such as - Top-selling products - Regional performance - Monthly sales trend - Average saes per product and total revenue by region using Excel and SQL server environment.
+- Create interactive Dashboards that highlight these findings using Excel and PowerBi.
 
 ## DATA SOURCE
 The data used was gotten from the tutors of Ladies in Tech program for exploration and analysis as a prerequisite for the certification.
@@ -18,21 +18,30 @@ The data used was gotten from the tutors of Ladies in Tech program for explorati
 - SQL (Structured Query Language) for querying and analysing data in relational database
 - Powerbi for visualization and building interactive dashboards
 
+## QUESTIONS (KPIs)
+1. Excel: Perform an initial exploration of the sales data. Use pivot tables to summarize total sales by product, region and month. Use Excel formulas to calculate metrics such as average sales per product and total revenue by region. Create any other interesting report.
+
+2. Structured Query Language (SQL): - Retrieve the total sales for each product category, - Find the number of sales transactions in each region, - Find the highest-selling product by total sales value, - Calculate total revenue per product, - Calculate monthly sales totals for the current year 2024, - Find the top 5 customers by total purchase amount, - Calculate the percentage of total sales contributed by each region, - Identify products with no sales in the last quarter.
+
+3. Power BI : Create a dashboard that visualises the insights found in Excel and SQL. It should include a sales overview, top performing products and regional breakdowns.
+   
+
  ## DATA CLEANING AND PREPARATION PROCESS
 
  ### EXCEL
- The data was gotten from the Ladies in Tech program. The data was explored to check for missing values and outliers that could affect the analysis using Microsoft Excel, Data duplicates including empty cells and spaces were removed. Date formats were also checked to ensure that the data is uniform.
- After the data had been thoroughly cleaned and validated for analysis. The data was summarized using pivot table to analyse the total sales by product, month and region.
- Used Excel formulas to calculate metrics such as average sales per product and total revenue by region
+- The data was explored to check for missing values and outliers that could affect the analysis.
+-  Data duplicates including empty cells and spaces were removed. Date formats were also checked to ensure that the data is consistent.
+- After the data had been thoroughly cleaned and validated for analysis. The data was summarized using pivot table according to the questions asked. 
+- Used Excel formulas to calculate metrics such as average sales per product and total revenue by region
  
  
  ### EXCEL DASHBOARD
- ## USING EXCEL - TOTAL SALES BY REGION, PRODUCTS AND MONTHS
+ ### USING EXCEL - TOTAL SALES BY REGION, PRODUCTS AND MONTHS
 
  ![Screenshot 2025-02-24 115309](https://github.com/user-attachments/assets/0ebf8eaa-2a1e-41c7-8b78-a31284dc5dc5)
 
 
- ### INSIGHTS ON TOTAL SALES BY PRODUCT
+ #### INSIGHTS ON TOTAL SALES BY PRODUCT
 ![Screenshot 2025-02-25 130423](https://github.com/user-attachments/assets/06392e5f-04ad-45bf-8be2-39beb00e1f14)
 
  
