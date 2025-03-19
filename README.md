@@ -46,12 +46,9 @@ The data used was gotten from the tutors of Ladies in Tech program for explorati
 
  
 The following insights can be gotten from the above
-- Top selling product
-  
-  Shoes are the highest selling product with a total sales of 613,380. This indicates a great demand for the product.
-- Least selling product
+- Top selling product: Shoes are the highest selling product with a total sales of 613,380. This indicates a great demand for the product.
 
-    Socks are the least selling product with a total sales of 180,785 which indicates less demand for the product.
+- Least selling product: Socks are the least selling product with a total sales of 180,785 which indicates less demand for the product.
 
  - Overall Total Sales Performance by Product
 Total Sales of all products (Shoes, Shirts, Hat, Gloves, Jacket, Socks) equaled a total of 2,101,090 which indicates a positive market response. Socks is the least selling product, this implies that the product require more marketing strategies for product visibility or the product has less target aundience.
