@@ -35,7 +35,7 @@ The data used was gotten from the tutors of Ladies in Tech program for explorati
 - Used Excel formulas to calculate metrics such as average sales per product and total revenue by region
  
  
- ### EXCEL DASHBOARD
+ ### EXCEL REPORT
  ### USING EXCEL - TOTAL SALES BY REGION, PRODUCTS AND MONTHS
 
  ![Screenshot 2025-02-24 115309](https://github.com/user-attachments/assets/0ebf8eaa-2a1e-41c7-8b78-a31284dc5dc5)
@@ -235,7 +235,7 @@ West -	300345 -	14.2947232150931
  #### SQL QUERIES AT A GLANCE
  
  
- ### POWERBI
+ ### POWER BI DASHBOARD
  
  ## RECOMMENDATION
  - FROM THE TOTAL SALES PER PRODUCT: Socks is the least selling product, this implies that the product require more marketing strategies for product visibility or the product has less target aundience.
