@@ -45,7 +45,7 @@ The data used was gotten from the tutors of Ladies in Tech program for explorati
 ![Screenshot 2025-02-25 130423](https://github.com/user-attachments/assets/06392e5f-04ad-45bf-8be2-39beb00e1f14)
 
  
-The following insights can be gootten from the above
+The following insights can be gotten from the above
 - Top selling product
   
   Shoes are the highest selling product with a total sales of 613,380. This indicates a great demand for the product.
