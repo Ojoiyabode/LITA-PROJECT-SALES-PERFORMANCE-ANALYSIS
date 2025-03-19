@@ -4,8 +4,22 @@ A repository of the sales performance data of retail store showing key insights 
 
 ## TABLE OF CONTENT
 ---
-
-
+ [PROJECT OBJECTIVE].(#project-overview)
+ 
+ [DATA SOURCE].(#data-source)
+ 
+ [TOOLS USED].(#tools-used)
+ 
+ [QUESTIONS (KPIs)].(#questions-kpis)
+ 
+ [DATA CLEANING AND PREPARATION PROCESS].(#data-cleaning-and-preparation-process)
+ 
+ [PROJECT INSIGHTS].(#project-insights)
+ 
+ [POWER BI DASHBOARD VISUALIZATION].(#power-bi-dashboard-visualization)
+ 
+ [RECOMMENDATION].(#recommendation)
+ 
 ## PROJECT OBJECTIVE
 ---
 - To analyze the sales performance of the retail store by uncovering key insights such as - Top-selling products - Regional performance - Monthly sales trend - Average saes per product and total revenue by region using Excel and SQL server environment.
@@ -211,6 +225,7 @@ ORDER BY
 - PRODUCTS WITH NO SALE = NIL/ZERO
 
 ## PROJECT INSIGHTS
+
 **From the excel report and SQL queries above, The following insights can be deduced;**
 
 **The following insights can be gotten from the** **TOTAL SALES BY PRODUCT**
@@ -244,7 +259,8 @@ Total Sales of all products (Shoes, Shirts, Hat, Gloves, Jacket, Socks) equaled 
 - Low Sales period : The lowest sales was recorded in April 2023 where there was a notable drop in sales.
   
   
- ### POWER BI DASHBOARD
+ ## POWER BI DASHBOARD VISUALIZATION 
+ 
 ![Screenshot 2025-03-19 160428](https://github.com/user-attachments/assets/642d741e-5503-4b1b-a5aa-74436ba0c85c)
 
  ![Screenshot 2025-03-19 154538](https://github.com/user-attachments/assets/55df12bf-93c7-43a4-b27e-752d429ba65d)
@@ -252,16 +268,24 @@ Total Sales of all products (Shoes, Shirts, Hat, Gloves, Jacket, Socks) equaled 
  ![Screenshot 2025-03-19 154616](https://github.com/user-attachments/assets/187b4abd-92fb-4b9e-a16f-9cd85d8ff2a6)
 
 ![Screenshot 2025-03-19 154640](https://github.com/user-attachments/assets/9ff6d589-9975-4551-b257-78c396826898)
+
 ![Screenshot 2025-03-19 155738](https://github.com/user-attachments/assets/ae9b2b2a-d780-46f2-9e14-32f894fd8487)
 
  ![Screenshot 2025-03-19 155754](https://github.com/user-attachments/assets/2eab66d4-097c-4100-9593-bfc0c88ea102)
+ 
 ![Screenshot 2025-03-19 155814](https://github.com/user-attachments/assets/301369ff-70c9-43de-9af0-cfd231328bf1)
+
 ![Screenshot 2025-03-19 155834](https://github.com/user-attachments/assets/d011b92e-5c1a-4884-b9d7-c579af6da427)
 
  
  ## RECOMMENDATION
- - FROM THE TOTAL SALES PER PRODUCT: Socks is the least selling product, this implies that the product require more marketing strategies for product visibility or the product has less target aundience.
+ ---
+- REVISED MARKETING STRATEGIES FOR PRODUCTS
+ Shoes are the highest selling products. The South region has the highest sales performance still with the sales of shoes. This implies that there is a high target audience and visiblity for Shoes while Socks is the least selling product, this implies that the product require more marketing strategies for product visibility or the product has less target aundience. In regions with low sales performance such as the West and North should have their target audience and marketing strategies reviewed to ensure that marketing strategies are reaching the right audience.
+
+- CONSUMER LOYALTY INCENTIVES
+  Consumer loyalty incentives should be implemented to ensure consumer retention in the South and East region. These two regons has the highest sales performance. Therefore these measure would keep consumers.
+
    
- - FROM THE TOTAL SALES PER REGION: It is recommended that the target audience for the least selling products per region should be re-evualted so marketing strategies can be done targeting the target audience for these products so there can be an increase in product visibility and sales for these product.
 
  
