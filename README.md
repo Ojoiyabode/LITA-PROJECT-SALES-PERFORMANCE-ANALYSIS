@@ -111,7 +111,36 @@ order by OrderId asc
 
  TOTAL SALES PER PRODUCT CATEGORY
  
+ SELECT SUM([Total Sales]) AS Total_Sales_shirt
+FROM [dbo].[SalesData$]
+WHERE [PRODUCT] = 'Shirt'
+- Total_Sales_shirt = 485600
 
+  SELECT SUM([Total Sales]) AS Total_Sales_shoes
+FROM [dbo].[SalesData$]
+WHERE [PRODUCT] = 'Shoes'
+- Total_Sales_shoes = 613380
+- 
+  SELECT SUM([Total Sales]) AS Total_Sales_Hat
+FROM [dbo].[SalesData$]
+WHERE [PRODUCT] = 'Hat'
+- Total_Sales_Hat = 316195
+- 
+SELECT SUM([Total Sales]) AS Total_Sales_Socks
+FROM [dbo].[SalesData$]
+WHERE [PRODUCT] = 'Socks'
+- Total_Sales_Socks = 180785
+- 
+SELECT SUM([Total Sales]) AS Total_Sales_Gloves
+FROM [dbo].[SalesData$]
+WHERE [PRODUCT] = 'Gloves'
+- Total_Sales_Gloves = 296900
+
+SELECT SUM([Total Sales]) AS Total_Sales_Jacket
+FROM [dbo].[SalesData$]
+WHERE [PRODUCT] = 'Jacket'
+- Total_Sales_Jacket = 208230
+  
  
  
  ### POWERBI
