@@ -4,21 +4,21 @@ A repository of the sales performance data of retail store showing key insights 
 
 ## TABLE OF CONTENT
 ---
- [PROJECT OBJECTIVE].(#project-overview)
+ [PROJECT OBJECTIVE](#project-objective)
  
- [DATA SOURCE].(#data-source)
+ [DATA SOURCE](#data-source)
  
- [TOOLS USED].(#tools-used)
+ [TOOLS USED](#tools-used)
  
- [QUESTIONS (KPIs)].(#questions-kpis)
+ [QUESTIONS (KPIs)](#questions-kpis)
  
- [DATA CLEANING AND PREPARATION PROCESS].(#data-cleaning-and-preparation-process)
+ [DATA CLEANING AND PREPARATION PROCESS](#data-cleaning-and-preparation-process)
  
- [PROJECT INSIGHTS].(#project-insights)
+ [PROJECT INSIGHTS](#project-insights)
  
- [POWER BI DASHBOARD VISUALIZATION].(#power-bi-dashboard-visualization)
+ [POWER BI DASHBOARD VISUALIZATION](#power-bi-dashboard-visualization)
  
- [RECOMMENDATION].(#recommendation)
+ [RECOMMENDATION](#recommendation)
  
 ## PROJECT OBJECTIVE
 ---
