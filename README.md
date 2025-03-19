@@ -104,8 +104,11 @@ The following insight can be deduced from the above:
 
  ### SQL- STRUCTURED QUERY LANGUAGE
  This is where I included basic lines of queries used during analysis
+ 
+ ##### CREATE DATABASE
  `create database LITA_CAP
 SELECT * FROM [dbo].[SalesData$]`
+
 ##### TO VIEW THE TABLE
  `SELECT [OrderID], [Customer Id], [Product], [Region], [OrderDate], [Quantity], [Unitprice], [Total Sales]
 from [dbo].[SalesData$]
@@ -152,7 +155,7 @@ WHERE [PRODUCT] = 'Jacket'`
 FROM [dbo].[SalesData$]
 GROUP BY [PRODUCT]
 ORDER BY SUM([Total Sales]) DESC`
--HIGHEST_SELLING_PRODUCT = Shoes at 613380
+- HIGHEST_SELLING_PRODUCT = Shoes at 613380
 
 ##### TOTAL REVENUE PER PRODUCT
 `SELECT TOP 1 [PRODUCT], SUM([Total Sales]) AS HIGHEST_SELLING_PRODUCT
@@ -186,9 +189,10 @@ OrderMonth ASC`
 5	44640-MAY
 6	148200 -JUNE
 7	37200 -JULY
-8	174300 -AUGUST
+8	174300 -AUGUST 
+
 ##### TOP 5 CUSTOMERS BY TOTAL PURCHASE AMOUNT
-SELECT TOP 5
+`SELECT TOP 5
 [Customer Id] AS Top5_Customer,
 SUM([Total Sales]) AS Total_Sales
 FROM
@@ -196,16 +200,16 @@ FROM
 GROUP BY
 [Customer Id]
 ORDER BY
-Total_Sales DESC
+Total_Sales DESC`
 
-Cus1302	4235
-Cus1431	4235
-Cus1250	4235
-Cus1005	4235
-Cus1115	4235
+- TOP 5 CUSTOMERS =	 Cus1302 4235
+			Cus1431	4235
+			Cus1250	4235
+			Cus1005	4235
+			Cus1115	4235
 
 ##### PERCENTAGE OF TOTAL SALES BY EACH REGION
-SELECT 
+`SELECT 
     [Region],
     SUM([Total Sales]) AS Total_Sales,
     (SUM([Total Sales]) / (SELECT SUM([Total Sales]) FROM [dbo].[SalesData$])) * 100 AS Sales_Percentage
@@ -214,24 +218,24 @@ FROM
 GROUP BY 
     [Region]
 ORDER BY 
-    Sales_Percentage DESC
+    Sales_Percentage DESC`
     
     Sales_Percentage by Region =
-    South -	927820 -	44.1589841463241
-East -	485925 - 23.1272815538601
-North - 387000 -	18.4190110847227
-West -	300345 -	14.2947232150931
+South -	927820  -	44.1589841463241
+East -	485925  -        23.1272815538601
+North - 387000  -	18.4190110847227
+West -	300345  -	14.2947232150931
 
 ##### PRODUCTS WITH NO SALES IN THE LAST QUARTER
 
-  SELECT [PRODUCT] AS No_Sales
+  `SELECT [PRODUCT] AS No_Sales
 	from [dbo].[SalesData$]
 	WHERE ([Total Sales]) = 0 
 	AND YEAR([OrderDate]) =2024
 	AND MONTH([OrderDate]) > 9
-	GROUP BY [PRODUCT]
+	GROUP BY [PRODUCT]`
 
- PRODUCTS WITH NO SALE = NIL/ZERO
+- PRODUCTS WITH NO SALE = NIL/ZERO
 
  #### SQL QUERIES AT A GLANCE
  
