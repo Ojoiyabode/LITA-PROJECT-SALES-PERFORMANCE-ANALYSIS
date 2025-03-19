@@ -1,19 +1,12 @@
-# LITA-CAPSTONE PROJECT:SALES-PERFORMANCE-ANALYSIS
+# LITA-CAPSTONE PROJECT:SALES-PERFORMANCE-ANALYSIS FOR A RETAIL STORE
 A repository of the sales performance data of retail store showing key insights and making data-driven decisions from the insights discovered from the data.
 
 ## TABLE OF CONTENT
 
-## PROJECT TITLE : SALES PERFORMANCE ANALYSIS OF A RETAIL STORE
 
 ## PROJECT OBJECTIVE
 ---
-The objective of this project is to uncover the following Key Sales performance insights which includes;
-### Insights to look out for
-- Top-selling products
-- Regional performance
-- Monthly sales trend
-- Average saes per product and total revenue by region
-- Extract key insights using SQL server environment
+The analyze the sales performance of the retail store by uncovering key insights such as - Top-selling products - Regional performance - Monthly sales trend - Average saes per product and total revenue by region - Extract key insights using SQL server environment
 
 ### Goals
 - Create visuals that captures these findings using PowerBi dashboard
