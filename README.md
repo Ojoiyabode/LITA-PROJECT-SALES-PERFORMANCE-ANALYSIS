@@ -6,22 +6,19 @@ A repository of the sales performance data of retail store showing key insights 
 
 ## PROJECT OBJECTIVE
 ---
-The analyze the sales performance of the retail store by uncovering key insights such as - Top-selling products - Regional performance - Monthly sales trend - Average saes per product and total revenue by region - Extract key insights using SQL server environment
+- The analyze the sales performance of the retail store by uncovering key insights such as - Top-selling products - Regional performance - Monthly sales trend - Average saes per product and total revenue by region using Excel and SQL server environment.
+- Create interractive Dashboards that highlight these findings using Excel and PowerBi.
 
-### Goals
-- Create visuals that captures these findings using PowerBi dashboard
-- Give data-driven recommendations 
-
-## DATA SOURCES
+## DATA SOURCE
 The data used was gotten from the tutors of Ladies in Tech program for exploration and analysis as a prerequisite for the certification.
 - <a href = "https://github.com/Ojoiyabode/LITA-PROJECT-SALES-PERFORMANCE-ANALYSIS/blob/main/LITA%20Capstone%20Dataset%20-%20Copy.xlsx">LITA CAPSTONE SALES DATASET</a>
 
 ## TOOLS USED
-- Microsoft Excel for data exploration, cleaning and transforming, analysis
+- Microsoft Excel for data exploration, cleaning and transforming
 - SQL (Structured Query Language) for querying and analysing data in relational database
 - Powerbi for visualization and building interactive dashboards
 
- ## DATA CLEANING AND PREPARATION
+ ## DATA CLEANING AND PREPARATION PROCESS
 
  ### EXCEL
  The data was gotten from the Ladies in Tech program. The data was explored to check for missing values and outliers that could affect the analysis using Microsoft Excel, Data duplicates including empty cells and spaces were removed. Date formats were also checked to ensure that the data is uniform.
@@ -29,7 +26,7 @@ The data used was gotten from the tutors of Ladies in Tech program for explorati
  Used Excel formulas to calculate metrics such as average sales per product and total revenue by region
  
  
- ## ANALYSIS & INSIGHTS 
+ ### EXCEL DASHBOARD
  ## USING EXCEL - TOTAL SALES BY REGION, PRODUCTS AND MONTHS
 
  ![Screenshot 2025-02-24 115309](https://github.com/user-attachments/assets/0ebf8eaa-2a1e-41c7-8b78-a31284dc5dc5)
