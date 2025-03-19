@@ -21,6 +21,7 @@ The objective of this project is to uncover the following Key Sales performance 
 
 ## DATA SOURCES
 The data used was gotten from the tutors of Ladies in Tech program for exploration and analysis as a prerequisite for the certification.
+- <a href = "https://github.com/Ojoiyabode/LITA-PROJECT-SALES-PERFORMANCE-ANALYSIS/blob/main/LITA%20Capstone%20Dataset%20-%20Copy.xlsx">LITA CAPSTONE SALES DATASET</a>
 
 ## TOOLS USED
 - Microsoft Excel for data exploration, cleaning and transforming, analysis
