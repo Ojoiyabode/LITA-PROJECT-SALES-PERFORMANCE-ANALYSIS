@@ -80,8 +80,9 @@ The following insights can be deduced from the above
 
   The following insight can be deduced from the above
 
-  - South region has the highest overall sales performance of 41% with its top selling product being Shoes, This is followed by the East region at 23% and the North region at 18%. The East and North region highest selling product being Shirt. Then West region has the lowest overall sales performance at 14% with its top sellng product being Hats.
-
+  - Top performing Region : The South is the top performing Region, It has the highest overall sales performance of 44% (927,820). This is followed by the East region at 23% and the North region at 18%.
+  - Lowest Performing Region : Then West region has the lowest overall sales performance at 14% (300,345)
+    
 #### TOTAL SALES PER MONTH
 
 ![Screenshot 2025-02-25 190525](https://github.com/user-attachments/assets/e21fb15c-f6ae-4bae-a15d-71e0a0788702)
