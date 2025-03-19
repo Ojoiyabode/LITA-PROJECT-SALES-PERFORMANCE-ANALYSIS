@@ -1,7 +1,9 @@
 # LITA-CAPSTONE PROJECT:SALES-PERFORMANCE-ANALYSIS FOR A RETAIL STORE
+---
 A repository of the sales performance data of retail store showing key insights and making data-driven decisions from the insights discovered from the data.
 
 ## TABLE OF CONTENT
+---
 
 
 ## PROJECT OBJECTIVE
@@ -10,15 +12,18 @@ A repository of the sales performance data of retail store showing key insights 
 - Create interactive Dashboards that highlight these findings using Excel and PowerBi.
 
 ## DATA SOURCE
+---
 The data used was gotten from the tutors of Ladies in Tech program for exploration and analysis as a prerequisite for the certification.
 - <a href = "https://github.com/Ojoiyabode/LITA-PROJECT-SALES-PERFORMANCE-ANALYSIS/blob/main/LITA%20Capstone%20Dataset%20-%20Copy.xlsx">LITA CAPSTONE SALES DATASET</a>
 
 ## TOOLS USED
+---
 - Microsoft Excel for data exploration, cleaning and transforming
 - SQL (Structured Query Language) for querying and analysing data in relational database
 - Powerbi for visualization and building interactive dashboards
 
 ## QUESTIONS (KPIs)
+---
 1. Excel: Perform an initial exploration of the sales data. Use pivot tables to summarize total sales by product, region and month. Use Excel formulas to calculate metrics such as average sales per product and total revenue by region. Create any other interesting report.
 
 2. Structured Query Language (SQL): - Retrieve the total sales for each product category, - Find the number of sales transactions in each region, - Find the highest-selling product by total sales value, - Calculate total revenue per product, - Calculate monthly sales totals for the current year 2024, - Find the top 5 customers by total purchase amount, - Calculate the percentage of total sales contributed by each region, - Identify products with no sales in the last quarter.
@@ -27,6 +32,7 @@ The data used was gotten from the tutors of Ladies in Tech program for explorati
    
 
  ## DATA CLEANING AND PREPARATION PROCESS
+ ---
 
  ### EXCEL
 - The data was explored to check for missing values and outliers that could affect the analysis.
@@ -41,7 +47,7 @@ The data used was gotten from the tutors of Ladies in Tech program for explorati
  ![Screenshot 2025-02-24 115309](https://github.com/user-attachments/assets/0ebf8eaa-2a1e-41c7-8b78-a31284dc5dc5)
 
 
- #### INSIGHTS ON TOTAL SALES BY PRODUCT
+ #### TOTAL SALES BY PRODUCT
 ![Screenshot 2025-02-25 130423](https://github.com/user-attachments/assets/06392e5f-04ad-45bf-8be2-39beb00e1f14)
 
  
@@ -53,8 +59,7 @@ The following insights can be gotten from the above
  - Overall Total Sales Performance by Product
 Total Sales of all products (Shoes, Shirts, Hat, Gloves, Jacket, Socks) equaled a total of 2,101,090 which indicates a positive market response. Socks is the least selling product, this implies that the product require more marketing strategies for product visibility or the product has less target aundience.
 
-#### INSIGHTS ON TOTAL SALES BY REGION
-#### Total Product sales per region
+#### TOTAL SALES BY REGION
 
 ![Screenshot 2025-02-25 170219](https://github.com/user-attachments/assets/037f920c-13f2-4644-8492-672e7e2be29b)
 
@@ -69,7 +74,7 @@ The following insights can be deduced from the above
 - West: Hat is the top selling product in the West region at 58% (174,300) while shoes are the least selling product at 10% (29,800)
 
 
-  #### Overall Total Product sales per region
+  #### OVERALL TOTAL PRODUCT SALES PER REGION
 
  ![Screenshot 2025-02-25 180555](https://github.com/user-attachments/assets/d50d46fd-1ea2-4c83-8213-4e5ea6940093)
 
@@ -77,7 +82,7 @@ The following insights can be deduced from the above
 
   - South region has the highest overall sales performance of 41% with its top selling product being Shoes, This is followed by the East region at 23% and the North region at 18%. The East and North region highest selling product being Shirt. Then West region has the lowest overall sales performance at 14% with its top sellng product being Hats.
 
-#### INSIGHTS ON TOTAL SALES PER MONTH
+#### TOTAL SALES PER MONTH
 
 ![Screenshot 2025-02-25 190525](https://github.com/user-attachments/assets/e21fb15c-f6ae-4bae-a15d-71e0a0788702)
 
@@ -99,8 +104,8 @@ The following insight can be deduced from the above:
 
  ### SQL- STRUCTURED QUERY LANGUAGE
  This is where I included basic lines of queries used during analysis
- create database LITA_CAP
-```SELECT * FROM [dbo].[SalesData$]
+ ```create database LITA_CAP
+SELECT * FROM [dbo].[SalesData$]```
 ##### TO VIEW THE TABLE
  SELECT [OrderID], [Customer Id], [Product], [Region], [OrderDate], [Quantity], [Unitprice], [Total Sales]
 from [dbo].[SalesData$]
