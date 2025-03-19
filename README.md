@@ -48,59 +48,30 @@ The data used was gotten from the tutors of Ladies in Tech program for explorati
 
 
  #### TOTAL SALES BY PRODUCT
-![Screenshot 2025-02-25 130423](https://github.com/user-attachments/assets/06392e5f-04ad-45bf-8be2-39beb00e1f14)
-
  
-The following insights can be gotten from the above
-- Top selling product: Shoes are the highest selling product with a total sales of 613,380. This indicates a great demand for the product.
-
-- Least selling product: Socks are the least selling product with a total sales of 180,785 which indicates less demand for the product.
-
- - Overall Total Sales Performance by Product
-Total Sales of all products (Shoes, Shirts, Hat, Gloves, Jacket, Socks) equaled a total of 2,101,090 which indicates a positive market response. Socks is the least selling product, this implies that the product require more marketing strategies for product visibility or the product has less target aundience.
+![Screenshot 2025-02-25 130423](https://github.com/user-attachments/assets/06392e5f-04ad-45bf-8be2-39beb00e1f14)
 
 #### TOTAL SALES BY REGION
 
 ![Screenshot 2025-02-25 170219](https://github.com/user-attachments/assets/037f920c-13f2-4644-8492-672e7e2be29b)
 
-The following insights can be deduced from the above 
-
-- East: Shirt is the top selling in the East region at 49% (237,600) while shoes is the least seling product at 8% (32,200). Hat and Jacket have a total sales of 43% (211,125).
-
-- North: Shirt is the top selling product in the North region at 64% (248,000), while Hat is the least selling product at 8% (34,720)
-
-- South: Shoes are the top selling product in the South region at 59% (546,300) while Socks is the least selling product at 14% (133,920)
-
-- West: Hat is the top selling product in the West region at 58% (174,300) while shoes are the least selling product at 10% (29,800)
-
-
   #### OVERALL TOTAL PRODUCT SALES PER REGION
 
  ![Screenshot 2025-02-25 180555](https://github.com/user-attachments/assets/d50d46fd-1ea2-4c83-8213-4e5ea6940093)
 
-  The following insight can be deduced from the above
-
-  - Top performing Region : The South is the top performing Region, It has the highest overall sales performance of 44% (927,820). This is followed by the East region at 23% and the North region at 18%.
-  - Lowest Performing Region : Then West region has the lowest overall sales performance at 14% (300,345)
-    
 #### TOTAL SALES PER MONTH
 
 ![Screenshot 2025-02-25 190525](https://github.com/user-attachments/assets/e21fb15c-f6ae-4bae-a15d-71e0a0788702)
 
 
-The following insight can be deduced from the above:
-- Peak sales : There were remarkable peak sales in February 2023, July 2023 and February 2024. These peak sales shows that these periods were months of high product demand.
-
-- Low Sales period : The lowest sales was recorded in April 2023 where there was a notable drop in sales.
-
-  #### AVERAGE SALES PER PRODUCT                         
+  #### AVERAGE SALES PER PRODUCT
+                         
 ![Screenshot 2025-03-11 090724](https://github.com/user-attachments/assets/cb9c2864-7737-44e3-a9f2-86a8178fee31)
 
 
   #### TOTAL REVENUE BY REGION
+  
   ![Screenshot 2025-03-11 090740](https://github.com/user-attachments/assets/880afad4-6b6a-43b0-b37b-2561ab89f6ec)
-
-
 
 
  ### SQL- STRUCTURED QUERY LANGUAGE
@@ -239,9 +210,45 @@ ORDER BY
 
 - PRODUCTS WITH NO SALE = NIL/ZERO
 
- ### SQL QUERIES AT A GLANCE
- 
- 
+## PROJECT INSIGHTS
+**From the excel report and SQL queries above, The following insights can be deduced;**
+
+**The following insights can be gotten from the** **TOTAL SALES BY PRODUCT**
+
+- Top selling product: Shoes are the highest selling product with a total sales of 613,380. This indicates a great demand for the product.
+
+- Least selling product: Socks are the least selling product with a total sales of 180,785 which indicates less demand for the product.
+
+ - Overall Total Sales Performance by Product
+Total Sales of all products (Shoes, Shirts, Hat, Gloves, Jacket, Socks) equaled a total of 2,101,090 which indicates a positive market response. Socks is the least selling product, this implies that the product require more marketing strategies for product visibility or the product has less target aundience.
+
+**The following insights can be deduced from the TOTAL SALES BY REGION**
+
+- East: Shirt is the top selling in the East region at 49% (237,600) while shoes is the least seling product at 8% (32,200). Hat and Jacket have a total sales of 43% (211,125).
+
+- North: Shirt is the top selling product in the North region at 64% (248,000), while Hat is the least selling product at 8% (34,720)
+
+- South: Shoes are the top selling product in the South region at 59% (546,300) while Socks is the least selling product at 14% (133,920)
+
+- West: Hat is the top selling product in the West region at 58% (174,300) while shoes are the least selling product at 10% (29,800)
+
+**The following insight can be deduced from OVERALL PRODUCT SALES BY REGION**
+
+  - Top performing Region : The South is the overall top performing Region, It has the highest overall sales performance of 44% (927,820). This is followed by the East region at 23% and the North region at 18%.
+  - Lowest Performing Region : Then West region has the lowest overall sales performance at 14% (300,345)
+
+**The following insight can be deduced from the above TOTAL SALES PER MONTH**
+
+- Peak sales : There were remarkable peak sales in February 2023, July 2023 and February 2024. These peak sales shows that these periods were months of high product demand.
+
+- Low Sales period : The lowest sales was recorded in April 2023 where there was a notable drop in sales.
+  
+
+
+
+
+
+  
  ### POWER BI DASHBOARD
  
  ## RECOMMENDATION
