@@ -104,12 +104,17 @@ The following insight can be deduced from the above:
  This is where I included basic lines of queries used during analysis
  create database LITA_CAP
  SELECT * FROM [dbo].[SalesData$]
-
+##### TO VIEW THE TABLE
  SELECT [OrderID], [Customer Id], [Product], [Region], [OrderDate], [Quantity], [Unitprice], [Total Sales]
 from [dbo].[SalesData$]
 order by OrderId asc
 
- TOTAL SALES PER PRODUCT CATEGORY
+##### SUM OF TOTAL SALES
+SELECT SUM([Total Sales]) AS Total_Sales_shirt
+FROM [dbo].[SalesData$]
+- Total_Sales = 2101090
+  
+ ##### TOTAL SALES PER PRODUCT CATEGORY
  
  SELECT SUM([Total Sales]) AS Total_Sales_shirt
 FROM [dbo].[SalesData$]
@@ -140,7 +145,92 @@ SELECT SUM([Total Sales]) AS Total_Sales_Jacket
 FROM [dbo].[SalesData$]
 WHERE [PRODUCT] = 'Jacket'
 - Total_Sales_Jacket = 208230
-  
+
+##### HIGHEST SELLING PRODUCT BY TOTAL SALES
+SELECT TOP 1 [PRODUCT], SUM([Total Sales]) AS HIGHEST_SELLING_PRODUCT
+FROM [dbo].[SalesData$]
+GROUP BY [PRODUCT]
+ORDER BY SUM([Total Sales]) DESC
+-HIGHEST_SELLING_PRODUCT = Shoes at 613380
+
+##### TOTAL REVENUE PER PRODUCT
+SELECT TOP 1 [PRODUCT], SUM([Total Sales]) AS HIGHEST_SELLING_PRODUCT
+FROM [dbo].[SalesData$]
+GROUP BY [PRODUCT]
+ORDER BY SUM([Total Sales]) DESC
+Shoes	613380
+Jacket	208230
+Hat	316195
+Socks	180785
+Shirt	485600
+Gloves	296900
+
+##### MONTHLY SALES TOTAL FOR THE CURRENT YEAR(2024)
+SELECT
+MONTH([OrderDate]) AS OrderMonth,
+SUM([Total Sales]) AS Total_Sales_for_2024
+FROM
+[dbo].[SalesData$]
+WHERE
+YEAR([OrderDate]) = 2024
+GROUP BY
+MONTH([OrderDate])
+ORDER BY
+OrderMonth ASC
+
+1	198400- JAN
+2	298800 -FEB
+3	54780 -MARCH
+4	39440 -APRIL
+5	44640-MAY
+6	148200 -JUNE
+7	37200 -JULY
+8	174300 -AUGUST
+##### TOP 5 CUSTOMERS BY TOTAL PURCHASE AMOUNT
+SELECT TOP 5
+[Customer Id] AS Top5_Customer,
+SUM([Total Sales]) AS Total_Sales
+FROM
+[dbo].[SalesData$]
+GROUP BY
+[Customer Id]
+ORDER BY
+Total_Sales DESC
+
+Cus1302	4235
+Cus1431	4235
+Cus1250	4235
+Cus1005	4235
+Cus1115	4235
+
+##### PERCENTAGE OF TOTAL SALES BY EACH REGION
+SELECT 
+    [Region],
+    SUM([Total Sales]) AS Total_Sales,
+    (SUM([Total Sales]) / (SELECT SUM([Total Sales]) FROM [dbo].[SalesData$])) * 100 AS Sales_Percentage
+FROM 
+    [dbo].[SalesData$]
+GROUP BY 
+    [Region]
+ORDER BY 
+    Sales_Percentage DESC
+    
+    Sales_Percentage by Region =
+    South -	927820 -	44.1589841463241
+East -	485925 - 23.1272815538601
+North - 387000 -	18.4190110847227
+West -	300345 -	14.2947232150931
+
+##### PRODUCTS WITH NO SALES IN THE LAST QUARTER
+
+  SELECT [PRODUCT] AS No_Sales
+	from [dbo].[SalesData$]
+	WHERE ([Total Sales]) = 0 
+	AND YEAR([OrderDate]) =2024
+	AND MONTH([OrderDate]) > 9
+	GROUP BY [PRODUCT]
+
+ PRODUCTS WITH NO SALE = NIL/ZERO
  
  
  ### POWERBI
