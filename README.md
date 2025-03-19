@@ -243,13 +243,21 @@ Total Sales of all products (Shoes, Shirts, Hat, Gloves, Jacket, Socks) equaled 
 
 - Low Sales period : The lowest sales was recorded in April 2023 where there was a notable drop in sales.
   
-
-
-
-
-
   
  ### POWER BI DASHBOARD
+![Screenshot 2025-03-19 160428](https://github.com/user-attachments/assets/642d741e-5503-4b1b-a5aa-74436ba0c85c)
+
+ ![Screenshot 2025-03-19 154538](https://github.com/user-attachments/assets/55df12bf-93c7-43a4-b27e-752d429ba65d)
+
+ ![Screenshot 2025-03-19 154616](https://github.com/user-attachments/assets/187b4abd-92fb-4b9e-a16f-9cd85d8ff2a6)
+
+![Screenshot 2025-03-19 154640](https://github.com/user-attachments/assets/9ff6d589-9975-4551-b257-78c396826898)
+![Screenshot 2025-03-19 155738](https://github.com/user-attachments/assets/ae9b2b2a-d780-46f2-9e14-32f894fd8487)
+
+ ![Screenshot 2025-03-19 155754](https://github.com/user-attachments/assets/2eab66d4-097c-4100-9593-bfc0c88ea102)
+![Screenshot 2025-03-19 155814](https://github.com/user-attachments/assets/301369ff-70c9-43de-9af0-cfd231328bf1)
+![Screenshot 2025-03-19 155834](https://github.com/user-attachments/assets/d011b92e-5c1a-4884-b9d7-c579af6da427)
+
  
  ## RECOMMENDATION
  - FROM THE TOTAL SALES PER PRODUCT: Socks is the least selling product, this implies that the product require more marketing strategies for product visibility or the product has less target aundience.
