@@ -104,62 +104,61 @@ The following insight can be deduced from the above:
 
  ### SQL- STRUCTURED QUERY LANGUAGE
  This is where I included basic lines of queries used during analysis
- ```create database LITA_CAP
-SELECT * FROM [dbo].[SalesData$]```
+ `create database LITA_CAP
+SELECT * FROM [dbo].[SalesData$]`
 ##### TO VIEW THE TABLE
- SELECT [OrderID], [Customer Id], [Product], [Region], [OrderDate], [Quantity], [Unitprice], [Total Sales]
+ `SELECT [OrderID], [Customer Id], [Product], [Region], [OrderDate], [Quantity], [Unitprice], [Total Sales]
 from [dbo].[SalesData$]
-order by OrderId asc
+order by OrderId asc`
 
 ##### SUM OF TOTAL SALES
-SELECT SUM([Total Sales]) AS Total_Sales_shirt
-FROM [dbo].[SalesData$]
+`SELECT SUM([Total Sales]) AS Total_Sales_shirt
+FROM [dbo].[SalesData$]`
 - Total_Sales = 2101090
   
  ##### TOTAL SALES PER PRODUCT CATEGORY
- 
- SELECT SUM([Total Sales]) AS Total_Sales_shirt
+`SELECT SUM([Total Sales]) AS Total_Sales_shirt
 FROM [dbo].[SalesData$]
-WHERE [PRODUCT] = 'Shirt'
+WHERE [PRODUCT] = 'Shirt'`
 - Total_Sales_shirt = 485600
 
-  SELECT SUM([Total Sales]) AS Total_Sales_shoes
+  `SELECT SUM([Total Sales]) AS Total_Sales_shoes
 FROM [dbo].[SalesData$]
-WHERE [PRODUCT] = 'Shoes'
+WHERE [PRODUCT] = 'Shoes'`
 - Total_Sales_shoes = 613380
-- 
-  SELECT SUM([Total Sales]) AS Total_Sales_Hat
+
+  `SELECT SUM([Total Sales]) AS Total_Sales_Hat
 FROM [dbo].[SalesData$]
-WHERE [PRODUCT] = 'Hat'
+WHERE [PRODUCT] = 'Hat'`
 - Total_Sales_Hat = 316195
-- 
-SELECT SUM([Total Sales]) AS Total_Sales_Socks
+  
+`SELECT SUM([Total Sales]) AS Total_Sales_Socks
 FROM [dbo].[SalesData$]
-WHERE [PRODUCT] = 'Socks'
+WHERE [PRODUCT] = 'Socks'`
 - Total_Sales_Socks = 180785
-- 
-SELECT SUM([Total Sales]) AS Total_Sales_Gloves
+  
+`SELECT SUM([Total Sales]) AS Total_Sales_Gloves
 FROM [dbo].[SalesData$]
-WHERE [PRODUCT] = 'Gloves'
+WHERE [PRODUCT] = 'Gloves'`
 - Total_Sales_Gloves = 296900
 
-SELECT SUM([Total Sales]) AS Total_Sales_Jacket
+`SELECT SUM([Total Sales]) AS Total_Sales_Jacket
 FROM [dbo].[SalesData$]
-WHERE [PRODUCT] = 'Jacket'
+WHERE [PRODUCT] = 'Jacket'`
 - Total_Sales_Jacket = 208230
 
 ##### HIGHEST SELLING PRODUCT BY TOTAL SALES
-SELECT TOP 1 [PRODUCT], SUM([Total Sales]) AS HIGHEST_SELLING_PRODUCT
+`SELECT TOP 1 [PRODUCT], SUM([Total Sales]) AS HIGHEST_SELLING_PRODUCT
 FROM [dbo].[SalesData$]
 GROUP BY [PRODUCT]
-ORDER BY SUM([Total Sales]) DESC
+ORDER BY SUM([Total Sales]) DESC`
 -HIGHEST_SELLING_PRODUCT = Shoes at 613380
 
 ##### TOTAL REVENUE PER PRODUCT
-SELECT TOP 1 [PRODUCT], SUM([Total Sales]) AS HIGHEST_SELLING_PRODUCT
+`SELECT TOP 1 [PRODUCT], SUM([Total Sales]) AS HIGHEST_SELLING_PRODUCT
 FROM [dbo].[SalesData$]
 GROUP BY [PRODUCT]
-ORDER BY SUM([Total Sales]) DESC
+ORDER BY SUM([Total Sales]) DESC`
 Shoes	613380
 Jacket	208230
 Hat	316195
@@ -168,7 +167,7 @@ Shirt	485600
 Gloves	296900
 
 ##### MONTHLY SALES TOTAL FOR THE CURRENT YEAR(2024)
-SELECT
+`SELECT
 MONTH([OrderDate]) AS OrderMonth,
 SUM([Total Sales]) AS Total_Sales_for_2024
 FROM
@@ -178,7 +177,7 @@ YEAR([OrderDate]) = 2024
 GROUP BY
 MONTH([OrderDate])
 ORDER BY
-OrderMonth ASC
+OrderMonth ASC`
 
 1	198400- JAN
 2	298800 -FEB
